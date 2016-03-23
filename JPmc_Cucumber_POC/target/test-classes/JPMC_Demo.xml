@@ -1,0 +1,10 @@
+<suite name="JCPSuite"  thread-count="1"
+	verbose="1">
+
+	<test name="JPC_HomeScreen" junit="false" preserve-order="true">
+		<classes>
+			<class name="CucumberRunner" />
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,494 @@
+[
+  {
+    "id": "cucumberpoc",
+    "tags": [
+      {
+        "name": "@JPMC_Demo",
+        "line": 1
+      }
+    ],
+    "description": "",
+    "name": "CucumberPOC",
+    "keyword": "Feature",
+    "line": 2,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 20000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStep.closeBrowser()"
+            }
+          }
+        ],
+        "id": "cucumberpoc;jpmc",
+        "tags": [
+          {
+            "name": "@JPMC_HomeScreen_Scenario",
+            "line": 7
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 298240000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStep.launchBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "JPMC",
+        "keyword": "Scenario",
+        "line": 8,
+        "steps": [
+          {
+            "result": {
+              "duration": 27429791000,
+              "status": "passed"
+            },
+            "name": "Customer launch the Browser",
+            "keyword": "Given ",
+            "line": 10,
+            "match": {
+              "location": "CommonStep.Customer_launch_the_Browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 15273179000,
+              "status": "passed"
+            },
+            "name": "Customer validate JPMC home screen explore products objects",
+            "keyword": "Then ",
+            "line": 12,
+            "match": {
+              "location": "HomeScreenStep.Customer_validate_JPMC_home_screen_explore_products_objects()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2003988000,
+              "status": "passed"
+            },
+            "name": "Customer validate JPMC home screen images",
+            "keyword": "Then ",
+            "line": 14,
+            "match": {
+              "location": "HomeScreenStep.Customer_validate_JPMC_home_screen_images()"
+            }
+          },
+          {
+            "result": {
+              "duration": 16775173000,
+              "status": "passed"
+            },
+            "name": "Customer validate JPMC home screen linkTexts",
+            "keyword": "Then ",
+            "line": 16,
+            "match": {
+              "location": "HomeScreenStep.Customer_validate_JPMC_home_screen_linkTexts()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7901158000,
+              "status": "passed"
+            },
+            "name": "Customer Login into the chase dot com",
+            "keyword": "Then ",
+            "line": 18,
+            "match": {
+              "location": "HomeScreenStep.Customer_Login_into_the_chase_dot_com(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "InputFileName",
+                  "SheetName",
+                  "RowId"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "JPMC_Input",
+                  "Login",
+                  "User3"
+                ],
+                "line": 20
+              }
+            ]
+          },
+          {
+            "result": {
+              "duration": 7446783000,
+              "status": "passed"
+            },
+            "name": "Customer navigate back",
+            "keyword": "Then ",
+            "line": 22,
+            "match": {
+              "location": "CommonStep.Customer_navigate_back()"
+            }
+          },
+          {
+            "result": {
+              "duration": 698041000,
+              "status": "passed"
+            },
+            "name": "Customer Close the Browser",
+            "keyword": "Given ",
+            "line": 24,
+            "match": {
+              "location": "CommonStep.Customer_Close_the_Browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "#________________________________________________________________________________________________",
+            "line": 4
+          }
+        ]
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 15000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStep.closeBrowser()"
+            }
+          }
+        ],
+        "id": "cucumberpoc;jpmc",
+        "tags": [
+          {
+            "name": "@JPMC_HomeScreen_Search",
+            "line": 29
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 5187000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStep.launchBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "JPMC",
+        "keyword": "Scenario",
+        "line": 30,
+        "steps": [
+          {
+            "result": {
+              "duration": 27401985000,
+              "status": "passed"
+            },
+            "name": "Customer launch the Browser",
+            "keyword": "Given ",
+            "line": 32,
+            "match": {
+              "location": "CommonStep.Customer_launch_the_Browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 15347978000,
+              "status": "passed"
+            },
+            "name": "Customer search data in chase dot com",
+            "keyword": "Then ",
+            "line": 34,
+            "match": {
+              "location": "HomeScreenStep.Customer_search_data_in_chase_dot_com(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "InputFileName",
+                  "SheetName",
+                  "RowId"
+                ],
+                "line": 35
+              },
+              {
+                "cells": [
+                  "JPMC_Input",
+                  "ProductSearch",
+                  "PS02"
+                ],
+                "line": 36
+              }
+            ]
+          },
+          {
+            "result": {
+              "duration": 7241081000,
+              "status": "passed"
+            },
+            "name": "Customer navigate back",
+            "keyword": "Then ",
+            "line": 38,
+            "match": {
+              "location": "CommonStep.Customer_navigate_back()"
+            }
+          },
+          {
+            "result": {
+              "duration": 617088000,
+              "status": "passed"
+            },
+            "name": "Customer Close the Browser",
+            "keyword": "Given ",
+            "line": 40,
+            "match": {
+              "location": "CommonStep.Customer_Close_the_Browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "#________________________________________________________________________________________________",
+            "line": 26
+          }
+        ]
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 14000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStep.closeBrowser()"
+            }
+          }
+        ],
+        "id": "cucumberpoc;jpmc",
+        "tags": [
+          {
+            "name": "@JPMC_Navigate_Creditcards",
+            "line": 46
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 5484000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStep.launchBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "JPMC",
+        "keyword": "Scenario",
+        "line": 47,
+        "steps": [
+          {
+            "result": {
+              "duration": 27511333000,
+              "status": "passed"
+            },
+            "name": "Customer launch the Browser",
+            "keyword": "Given ",
+            "line": 49,
+            "match": {
+              "location": "CommonStep.Customer_launch_the_Browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 26900352000,
+              "status": "passed"
+            },
+            "name": "Customer navigate to \"Creditcards\" products objects",
+            "keyword": "Then ",
+            "line": 51,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Creditcards",
+                  "offset": 22
+                }
+              ],
+              "location": "HomeScreenStep.Customer_navigate_to_explore_Product_Page(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 31502920000,
+              "status": "passed"
+            },
+            "name": "Customer validate credit card screen objects",
+            "keyword": "Then ",
+            "line": 53,
+            "match": {
+              "location": "CreditcardsScreenSteps.Customer_validate_credit_card_screen_objects()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7354816000,
+              "status": "passed"
+            },
+            "name": "Customer navigate back",
+            "keyword": "Then ",
+            "line": 55,
+            "match": {
+              "location": "CommonStep.Customer_navigate_back()"
+            }
+          },
+          {
+            "result": {
+              "duration": 938728000,
+              "status": "passed"
+            },
+            "name": "Customer Close the Browser",
+            "keyword": "Given ",
+            "line": 57,
+            "match": {
+              "location": "CommonStep.Customer_Close_the_Browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "#________________________________________________________________________________________________",
+            "line": 43
+          }
+        ]
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 21000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStep.closeBrowser()"
+            }
+          }
+        ],
+        "id": "cucumberpoc;jpmc",
+        "tags": [
+          {
+            "name": "@JPMC_Navigate_Checking",
+            "line": 62
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 5110000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStep.launchBrowser()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "JPMC",
+        "keyword": "Scenario",
+        "line": 63,
+        "steps": [
+          {
+            "result": {
+              "duration": 27990116000,
+              "status": "passed"
+            },
+            "name": "Customer launch the Browser",
+            "keyword": "Given ",
+            "line": 65,
+            "match": {
+              "location": "CommonStep.Customer_launch_the_Browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2978456000,
+              "status": "passed"
+            },
+            "name": "Customer navigate to \"Checking\" products objects",
+            "keyword": "Then ",
+            "line": 67,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checking",
+                  "offset": 22
+                }
+              ],
+              "location": "HomeScreenStep.Customer_navigate_to_explore_Product_Page(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 30054595000,
+              "status": "passed"
+            },
+            "name": "Customer validate checking screen objects",
+            "keyword": "Then ",
+            "line": 69,
+            "match": {
+              "location": "CheckingScreenSteps.Customer_validate_checking_screen_objects()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5414767000,
+              "status": "passed"
+            },
+            "name": "Customer navigate back",
+            "keyword": "Then ",
+            "line": 71,
+            "match": {
+              "location": "CommonStep.Customer_navigate_back()"
+            }
+          },
+          {
+            "result": {
+              "duration": 743024000,
+              "status": "passed"
+            },
+            "name": "Customer Close the Browser",
+            "keyword": "Given ",
+            "line": 73,
+            "match": {
+              "location": "CommonStep.Customer_Close_the_Browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "#________________________________________________________________________________________________",
+            "line": 59
+          }
+        ]
+      }
+    ],
+    "uri": "JPMC_Demo.feature"
+  }
+]
